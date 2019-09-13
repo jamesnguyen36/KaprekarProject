@@ -49,7 +49,7 @@ int isKaprekar(int n) {
     //the second part cannot be zero and if
     //the sum of the two parts is equal to n, then it is
     if(second > 0 && n == first + second) {
-      return 1;
+      return (1);
     }
   }
   return 0;
